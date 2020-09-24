@@ -1,0 +1,2 @@
+# bashstories
+Record bash history
