@@ -1,0 +1,1000 @@
+ls
+cd ../lane02/
+ls
+ls -ltrh
+cd ../lane03
+ls
+pwd
+cd ../lane04
+ls
+ls | grep "tmp"
+rm *tmp*
+ls | grep "tmp"
+ls | grep "sam"
+R --no-save
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd mapBWAmem/
+ls
+cd lane04
+ls
+squeue -u ble
+cd ../lane01
+ls
+ls | grep "tmp"
+ls | grep "bai"
+ls | grep "temp"
+cd ../lane01
+cd ../lane02
+ls | grep "temp"
+ls | grep "tmp"
+ls
+pwd
+cd ../lane03
+ls | grep "tmp"
+cd ..
+cd lane04
+ls
+ls | grep "tmp"
+ls
+cd ..
+ls
+cp sortindex_lane02.R sortindex_resub.R
+ls
+vim sortindex_resub.R 
+R CMD --no-save --verbose sortindex_resub.R
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+ls
+cat sortindex_resub.Rout
+vim sortindex_resub.R 
+ls
+vim sortindex.sh
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+cat sortindex_resub.Rout
+vim sortindex_resub.R 
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+ls
+cat sortindex_resub.Rout
+vim sortindex_resub.R 
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+ls
+cat sortindex_resub.Rout
+vim sortindex.sh 
+vim sortindex_resub.R 
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+ls
+cat sortindex_resub.Rout
+ssub --help
+sbatch --help
+vim sortindex_resub.R 
+R CMD BATCH --no-save --verbose sortindex_resub.R
+sjobs
+ls
+cat sortindex_resub.Rout
+ls
+cat sortindex_resub_lane02.log
+cp sortindex_resub.R sortindex_resub_lane03.R
+ls
+vim sortindex_resub_lane03.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane03.R
+sjobs
+ls
+scancel -j 3446960
+scancel --help
+scancel 3446960
+sjobs
+ls
+R CMD BATCH --no-save --verbose sortindex_resub_lane03.R
+cat sortindex_resub_lane02.log
+sjobs
+cat sortindex_resub_lane03.Rout
+sjobs
+ls
+cat sortindex_resub_lane03.log
+vim sortindex_resub_lane03.R
+sjobs
+R CMD BATCH --no-save --verbose sortindex_resub_lane03.R
+sjobs
+ls
+cp sortindex_resub_lane03.R sortindex_resub_lane04.R
+vim sortindex_resub_lane04.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane04.R
+ls
+sjobs
+sjobs
+ls
+cd $SCR
+ls
+cd ATACtemp/
+cd NYGC_1/
+cd mapBWAmem/
+ls
+cat sortindex_resub_lane02.log
+cat sortindex_resub_lane04.Rout
+cat sortindex_resub_lane04.log
+ls
+cat sortindex_resub_lane03.log
+cat sortindex_resub_lane04.log
+cat 8-55-4-G06_GATCGAGT-AGTTCGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cat 8-60-1-H05_GAAGGAAG-ATGACGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cat sortindex.log
+cat sortindex_resub_lane04.Rout
+ls
+rm *.log
+ls
+rm *.Rout
+ls
+vim sortindex_lane01.R 
+vim sortindex_resub.R 
+vim sortindex_resub_lane03.R 
+vim sortindex_resub_lane04.R 
+R CMD BATCH --no-save --verbose sortindex_resub.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane03.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane04.R
+sjobs
+scancel 3455080
+scancel 3455116
+scancel 3455117
+scancel 3455118
+cd lane02/
+ls
+rm *tmp*
+ls
+cd ../lane03/
+ls
+rm *tmp*
+cd ../lane04/
+ls 
+rm *tmp*
+cd ..
+ls
+cat sortindex_resub_lane02.log
+ls
+R CMD BATCH --no-save --verbose sortindex_resub.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane03.R
+R CMD BATCH --no-save --verbose sortindex_resub_lane04.R
+cd logs_mapBWAmem_resubmit_200922/
+ls
+cat mapBWAmem_Sample_1-19-1-A01.log
+cd ..
+ls
+sjobs
+ls
+cat 8-55-4-G06_GATCGAGT-AGTTCGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cd lane04/
+LS
+ls
+cd ..
+cat 8-55-4-G06_GATCGAGT-AGTTCGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+ls
+cat 8-60-1-H05_GAAGGAAG-ATGACGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cat sortindex_resub_lane02.log
+cat sortindex_resub_lane03.log
+sjobs
+cd lane02/
+ls
+cd ..
+ls
+cd lane03/
+ls
+cd ..
+ls
+cd lane01/
+ls
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd mapBWAmem/
+ls
+cat sortindex_resub_lane04.Rout
+ls
+cat sortindex_resub_lane03.log
+cat sortindex_resub_lane02.log
+cat 8-55-4-G06_GATCGAGT-AGTTCGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cat 8-60-1-H05_GAAGGAAG-ATGACGTC_H2NTWDSXY_L004_001_adapTrimmedsortindex_resub_lane04.log
+cd lane04/
+ls
+cd ../lane03
+ls
+ls -lhs
+cd ../lane02/
+ls
+cd ../lane01/
+ls
+cd ..
+ls
+sjobs
+module list
+cd ..
+ls
+mkdir 3remDupMitoPISM
+ls
+cd 3remDupMitoPISM/
+vim remDupMitoPISM.sh
+ls
+ls -l
+chmod 754 remDupMitoPISM.sh 
+ls
+ls -l
+ls
+module list
+pwd
+cd ..
+ls
+mkdir 4PISM
+mv 3remDupMitoPISM/ 3remDupMito
+ls
+cd 3remDupMito/
+ls
+mkdir lane01 lane02 lane03 lane04
+ls
+cd ../4PISM/
+ls
+mkdir lane01 lane02 lane03 lane04
+ls
+cd ../3remDupMito/
+ls
+vim remDupMitoPISM.R
+cd ..
+ls
+cd 3remDupMito/
+ls
+ls -l
+chmod 754 remDupMitoPISM.R
+ls
+ls -l
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+vim remDupMitoPISM.sh
+ls
+sjobs
+cat remDupMitoPISM.Rout 
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/mapBWAmem/
+ls
+cd lane01/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+cat remDupMitoPISM.Rout 
+ls
+R
+R --no-save
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+ls
+sjobs
+cat remDupMitoPISM.Rout
+module list
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+ls
+ls -lt
+cat remDupMitoPISM.Rout
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+ls
+ls -l
+cat remDupMitoPISM.Rout
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+ls
+cat remDupMitoPISM.Rout
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+ls
+sjobs
+ls
+sjobs
+cat rmDupMito_1-19-2-A02_CGGCTAAT-AGAACGAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+cat rmDupMito_2-84-1-F07_CTGTTGAC-ACTGAGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMitoPISM.Rout
+vim remDupMitoPISM.R
+ls
+ls | head
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+ls
+cat remDupMitoPISM.Rout
+sjobs
+ls
+cat rmDupMito_2-64-6-E12_TAACCGGT-GAGACGAT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls | head
+ls
+sjobs
+vim remDupMitoPISM.R
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+ls
+cd lane01/
+ls
+cd ..
+ls
+sjobs
+ls
+sjobs
+ls
+ls -lht
+cat remDupMito_1-75-5-B05_CATGGCTA-GATGTGTG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+sjobs
+ls
+cp remDupMitoPISM.R remDupMitoPISM2.R
+ls
+vim remDupMitoPISM2.R 
+sjobs
+squeue -u ble
+cp remDupMitoPISM2.R remDupMitoPISM3.R
+ls
+vim remDupMitoPISM3.R 
+cp remDupMitoPISM.R remDupMitoPISM4.R
+vim remDupMitoPISM4.R 
+sjobs
+squeue -u ble
+sjobs
+ls -r
+cat remDupMito_1-82-2-C02_GCAAGATC-CTTCGACT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+vim remDupMitoPISM4.R 
+ls
+cat rmDupMito_1-82-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat rmDupMito_3-7-5-E05_TGTGACTG-GATAGGCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+rm rmDupMito*.log
+ls
+cat remDupMito_1-82-3-C03_CTTAGGAC-GTAGGAGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+sjobs
+cat remDupMitoPISM.R
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+ls -lt
+cat remDupMito_1-75-6-B06_CGGTTGTT-CATACCAC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls -lt
+cat remDupMito_1-82-3-C03_CTTAGGAC-GTAGGAGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls -lt
+cat remDupMito_1-82-5-C05_ATGCCTGT-CGCAATCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+cd lane01/
+ls
+ls -lh
+sjobs
+cd ..
+ls
+cat remDupMitoPISM.Rout
+ls
+sjobs
+scancel --user=ble
+ls
+cat remDupMito_1-75-2-B02_ATCGATCG-TGCTTCCA_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+cd lane01/
+ls
+ls -lh
+rm *.bam
+cd ../lane02
+ls
+cd ..
+ls
+vim remDupMitoPISM.sh
+cat remDupMito_1-75-6-B06_CGGTTGTT-CATACCAC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd ../mapBWAmem/
+ls
+cd lane01
+ls
+pwd
+ls
+pwd
+quit
+exit
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/mapBWAmem/lane01/
+ls
+ls -l
+pwd
+ls
+cd $SCR
+sjobs
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+cat remDupMito_1-82-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+pwd
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/3remDupMito/lane01/
+ls
+cd ..
+ls
+cat remDupMito_1-19-4-A04_CCTTGATC-ACTCCATC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls | grep "L001"
+ls | grep "L001" | wc -l
+ls
+vim remDupMitoPISM.sh
+vim remDupMitoPISM.R
+vim lane02
+ls
+cd lane02/
+ls
+cd ..
+ls
+cat remDupMitoPISM.Rout
+ls
+sjobs
+squeue -p steinlab
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+vim remDupMitoPISM.R
+sjobs
+cat remDupMito_1-19-1-A01_CTGATCGT-ATATGCGC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+sjobs
+ls
+vim remDupMitoPISM2.R 
+cd ../4PISM/
+ls
+cd lane01/
+ls
+cd ../..
+ls
+cd 3remDupMito/
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM2.R
+sjobs
+module list
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd ..
+ls
+sjobs
+ls
+cd 3remDupMito/
+ls
+cat remDupMito_5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+cat remDupMito_5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+cat remDupMito_5-62-2-B02_ATCGATCG-TGCTTCCA_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+ls -lth
+ls -lthr
+cd lane01
+ls
+cd ../lane02
+ls
+cd ..
+ls
+cat remDupMito_3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+cd lane02
+ls
+cat 3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDup_metrics.txt
+ls
+sjobs
+ls
+cd ..
+ls
+cd ../4PISM/
+ls
+cd lane01
+ls
+cd ../lane02/
+ls
+imgcat 3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.pdf
+cat 3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.txt
+cd ..
+cd 3
+cd ../3remDupMito/
+ls
+ls -ltrh
+cat remDupMito_4-46-1-C07_TTGCGAAG-AGCGTGTT_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+ls -ltrh
+cat remDupMito_4-38-6-B12_TCAGGCTT-CGCATGAT_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+cat remDupMitoPISM.R
+ls
+sjobs
+ls
+cd laneo1
+cd lane01
+ls
+sjobs
+cd ..
+ls
+cd ../4PISM/lane01/
+ls
+imgcat 1-147-2-D02_GCTATCCT-CACCTGTT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf
+imgcat 2-10-6-B12_TCAGGCTT-CGCATGAT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf
+imgcat 2-10-1-B07_AGTTCGTC-GATCGAGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf
+cd ..
+ls
+cd ../3remDupMito/
+ls
+vim remDupMitoPISM.sh
+echo $1
+echo $2
+echo $3
+echo $4
+echo $SCR
+ls
+sjobs
+ls
+cat remDupMito_4-94-4-F10_GTAGGAGT-CTTAGGAC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+cd ..
+ls
+cd 3remDupMito/lane01
+ls
+sjobs
+ls
+sjobs
+ls
+cd ..
+ls
+cd lane02
+ls
+cat ../remDupMito_3-310-2-H08_GATTGCTC-GTGAAGTG_H2NTWDSXY_L002_001_adapTrimmed_sort.log 
+ls
+cat ../remDupMito_3-310-2-H08_GATTGCTC-GTGAAGTG_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+cd ..
+ls
+cat remDupMitoPISM.sh 
+samtools index --help
+ls
+grep "error" *.log
+ls
+vim remDupMitoPISM_200923.R
+ls
+vim remDupMitoPISM.R
+ls
+vim remDupMitoPISM_200923.sh
+ls
+sjobs
+cat remDupMito_5-73-1-C01_TGAGCTAG-AACCGTTC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+ls
+mkdir logs_remDupMitoPISM_oom_200922
+ls
+ls | head
+ls -ltrh
+ls -l
+mv *.log logs_remDupMitoPISM_oom_200922/
+cd lane01/
+ls
+ls -ltrh
+ls -lrh
+rm *bam
+ls
+rm *bam.bai
+ls
+rm 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt 
+ls
+cd ../lane02
+ls
+cd ..
+ls
+cd ../4PISM/
+ls
+cd lane01/
+ls
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf
+imgcat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf
+ls
+imgcat 1-75-1-B01_ACTCTCGA-TGGTACAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.pdf 
+ls
+ls -ltrh
+rm *insMat*
+ls
+cd ../lane02/
+ls
+imgcat 5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.pdf
+imgcat 5-31-6-A06_GTTGTTCG-GAAGTTGG_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.pdf
+ls
+rm *insMat*
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+vim remDupMitoPISM_200923.R 
+vim remDupMitoPISM.R
+ls
+squeue -u ble
+squeue -p steinlab
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+squeue -u ble
+sjobs
+ls
+cat remDupMitoPISM.Rout
+ls
+sjobs
+ls
+cat remDupMito_3-7-5-E05_TGTGACTG-GATAGGCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+ls -l
+chmod 754 remDupMitoPISM_200923.sh
+ls -l
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+cat remDupMito_2-56-5-C11_CCGTAAGA-TGGACTCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+module list
+cd lane01/
+ls
+cd ..
+ls
+sjobs
+ls
+vim remDupMitoPISM.sh
+pwd
+vim remDupMitoPISM_200923.sh
+cat remDupMitoPISM_200923.R
+rm remDupMitoPISM_200923.R
+ls
+pwd
+sjobs
+ls
+cat remDupMito_3-19-6-F06_AGCGTGTT-TTGCGAAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_2-84-5-F11_CTTCGACT-GCAAGATC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+cd ..
+ls
+vim remDupMitoPISM.R
+cat remDupMito_2-56-3-C09_AACGTCTG-GCGTCATT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-19-1-A01_CTGATCGT-ATATGCGC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+ls -l
+ls -lh
+cat ../remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+sjobs
+squeue -u ble
+ls
+cat 1-19-3-A03_GACGATCT-ATGCACGA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+sjobs
+sjobs | less
+cd ..
+ls
+cd ..
+ls
+cd mapBWAmem/
+ls
+ls -ltrh
+cd ../3remDupMito/
+ls
+cat remDupMitoPISM_200923.sh
+ls
+cat remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls -lt
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-2-D02_GCTATCCT-CACCTGTT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-3-D03_GTGCCATA-ACTAGGAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-19-1-A01_CTGATCGT-ATATGCGC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+ls
+cd ..
+ls
+sbatch --help
+scontrol --help
+ls
+sjobs
+squeue -u ble
+cd ../4PISM/
+ls
+cd lane01/
+ls
+cd ../../3remDupMito/lane01/
+ls
+cd ..
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-2-D02_GCTATCCT-CACCTGTT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+sjobs
+squeue -u ble
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+sjobs
+squeue -u ble
+sjobs
+squeue -u ble
+ls
+ls -lh
+cd ../map
+cd ../../mapBWAmem/
+ls
+cd lane0
+cd lane01
+ls -lh
+squeue -u ble
+scontrol show JobId=3548808
+scontrol show JobId=3548808 | grep mem
+scontrol show JobId=3549189
+sjobs
+squeue -u ble
+squeue -u marielle
+squeue -p steinlab
+scontrol show JobID=3548813
+sjobs
+squeue -u ble
+ls
+cd ..
+l
+sls
+ls
+cd ../
+ls
+cd 3remDupMito/
+ls
+cat remDupMito_2-84-3-F09_TTGCAGAC-ACCACGAT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cd ..
+ls
+cd lane01/
+ls
+cat 3-7-4-E04_GCACAACT-ACGTTCAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 3-7-4-E04_GCACAACT-ACGTTCAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cat 3-19-5-F05_GTCATCGA-AGTGGATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 3-19-5-F05_GTCATCGA-AGTGGATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cat 3-7-3-E03_GAATCCGA-CACTAGCT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+squeue -u ble
+ls
+squeue -u ble
+sjobs
+squeue -u ble
+ls
+cd ../../4PISM/
+ls
+cd lane01/
+ls
+cd ../../3remDupMito/lane01/
+ls
+sjobs
+squeue -u ble
+ls
+cd ..
+ls
+cat remDupMito_3-7-6-E06_GTTACGCA-ATCGCCAT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+squeue -u ble
+scontrol show JobID=3549169
+sjobs
+l
+ls
+sjobs
+vim remDupMitoPISM.R
+cd ../4PISM/lane02
+ls
+cd ../lane01/
+ls
+sjobs
+cd ..
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+cat remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+ls -lh
+cat remDupMito_5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+cat remDupMito_2-84-6-F12_AACCGTTC-TGAGCTAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+ls -lh
+ls | wc -l
+ls
+ls | grep 1-19
+ls | grep 1-75
+ls | grep 1-75 | wc -l
+ls | grep 1-82 | wc -l
+ls | grep 1-147 | wc -l
+ls
+cd /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/23/09_23_2020_11_27_53_526
+cd /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/23/
+09_23_2020_11_27_53_526
+cat 09_23_2020_11_27_53_526
+sjobs
+scontrol show JobID=3549194
+cat 09_23_2020_11_27_53_692
+scontrol show JobID=3549174
+cat 09_23_2020_11_27_53_556
+scontrol show JobID=3549193
+cat 09_23_2020_11_27_53_692
+sjobs
+squeue -u ble
+sjobs
+cd $SCR
+cd ATACtemp/NYGC_1/
+ls
+cd 3remDupMito/
+ls
+sjobs
+squeue -u ble
+cd lane01
+ls | grep 2-2 | wc -l
+ls | grep 2-2
+ls | grep 2-10 | wc -l
+ls | grep 2- | wc -l
+ls | grep 2-
+ls | grep 2-56 | wc -l
+ls | grep 2-61 | wc -l
+ls | grep 2-64 | wc -l
+ls | grep 2-84 | wc -l
+ls | grep 2-84 
+squeue -u ble
+squeue -p steinlab
+ls
+cd ..
+ls
+cd lane02
+ls
+cd ../lane01
+ls
+cd ../lane03
+ls
+cd ..
+ls
+cp remDupMitoPISM.R remDupMitoPISM3.R
+ls
+vim remDupMitoPISM3.R 
+R CMD BATCH --no-save --verbose remDupMitoPISM3.R
+cp remDupMitoPISM3.R remDupMitoPISM4.R
+vim remDupMitoPISM4.R 
+R CMD BATCH --no-save --verbose remDupMitoPISM4.R
+squeue --status=RUNNING
+squeue --state=RUNNING
+squeue --state=RUNNING --user=ble
+squeue --user=ble
+ls
+ls | less
+ls -lht | less
+cd ..
+ls
+cd ..
+ls
+du -sh *
+cd ..
+ls
+sjobs
+sjobs --state=RUNNING
+sjobs --state=RUNNING | wc -l
+sjobs --state=PENDING | wc -l
+sjobs -p steinlab | wc -l
+sjobs -p steinlab
+sjobs -p general | wc -l
+sjobs -p general | less
+cd $PROJ/Wnt20
+ls
+cd GWA_prolif_dS_88donors/
+ls
+module list
+plink --tfile /proj/steinlab/projects/Wnt20/genotype/GenoFilt_88donors_200513/chr3.rmNkx_88donors.frqx --ld rs11709284 rs1108842 -out /proj/steinlab/projects/Wnt20/GWA_prolif_dS_88donors/LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842
+plink --tfile /proj/steinlab/projects/Wnt20/genotype/GenoFilt_88donors_200513/chr3.rmNkx_88donors.frqx --ld chr3:52525689:G:A chr3:52686064:A:C -out /proj/steinlab/projects/Wnt20/GWA_prolif_dS_88donors/LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842
+ls
+cat LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842.log
+sjobs
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+cd lane04/
+ls
+ls | wc -l
+cd ../lane03/
+ls | wc -l
+cat 8-69-8-C08_AGTGGATC-GTCATCGA_H2NTWDSXY_L004_001_adapTrimmed_sort_remDup_metrics.txt
+ls
+cat 7-76-6-H12_ATATGCGC-CTGATCGT_H2NTWDSXY_L003_001_adapTrimmed_sort_remDup_metrics.txt
+cat 7-76-6-H12_ATATGCGC-CTGATCGT_H2NTWDSXY_L003_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cd ..
+ls
+cd lane02
+ls | wc -l
+cd ../lane01
+ls
+ls | wc -l
+cd ..
+ls
+cp remDupMitoPISM.R remDupMitoPISM_resub_2-84-2.R
+ls
+vim remDupMitoPISM_resub_2-84-2.R
+cd ../4PISM/lane01
+ls
+cd ../3
+cd ../../3remDupMito/
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM_resub_2-84-2.R
+squeue -u ble
+cat remDupMito_8-60-2-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L004_001_adapTrimmed_sort.log
+squeue -u ble
+ls
+squeue -u ble
+ls
+cat remDupMito_2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+ls | wc -l
+cat 2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls -lhts
+ls -lhtsr
+cd ..
+grep "error" *log
+grep "rror" *log
+ls
+cat remDupMito_8-60-4-A08_ATGACGTC-GAAGGAAG_H2NTWDSXY_L004_001_adapTrimmed_sort.log
+grep "ln:" *log
+grep "ln:" *log | wc -l
+grep "longleaf" *log | wc -l
+ls
+cd lane01/
+ls
+ls -l
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh *
+df --help
+df -h *
+df -H *
+sjobs
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+pwd
+ls
+mkdir logs_remDupMitoPISM_200925/
+mv *.log ./logs_remDupMitoPISM_200925/
+ls
+grep "rror" ./logs_remDupMitoPISM_oom_200922/*.log
+grep "rror" ./logs_remDupMitoPISM_oom_200922/*.log | wc -l
+ls ./logs_remDupMitoPISM_oom_200922/ | wc -l
+grep "rror" ./logs_remDupMitoPISM_200925/*.log | wc -l
