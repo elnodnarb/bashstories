@@ -3998,3 +3998,1003 @@ pwd
 cd $SCR
 du -sh *
 sjobs
+ls
+ls -ltrh
+rm *insMat*
+ls
+cd ../lane02/
+ls
+imgcat 5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.pdf
+imgcat 5-31-6-A06_GTTGTTCG-GAAGTTGG_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.pdf
+ls
+rm *insMat*
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+vim remDupMitoPISM_200923.R 
+vim remDupMitoPISM.R
+ls
+squeue -u ble
+squeue -p steinlab
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+squeue -u ble
+sjobs
+ls
+cat remDupMitoPISM.Rout
+ls
+sjobs
+ls
+cat remDupMito_3-7-5-E05_TGTGACTG-GATAGGCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+ls -l
+chmod 754 remDupMitoPISM_200923.sh
+ls -l
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+cat remDupMito_2-56-5-C11_CCGTAAGA-TGGACTCT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+module list
+cd lane01/
+ls
+cd ..
+ls
+sjobs
+ls
+vim remDupMitoPISM.sh
+pwd
+vim remDupMitoPISM_200923.sh
+cat remDupMitoPISM_200923.R
+rm remDupMitoPISM_200923.R
+ls
+pwd
+sjobs
+ls
+cat remDupMito_3-19-6-F06_AGCGTGTT-TTGCGAAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_2-84-5-F11_CTTCGACT-GCAAGATC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+cd ..
+ls
+vim remDupMitoPISM.R
+cat remDupMito_2-56-3-C09_AACGTCTG-GCGTCATT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-19-1-A01_CTGATCGT-ATATGCGC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+ls -l
+ls -lh
+cat ../remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls
+sjobs
+squeue -u ble
+ls
+cat 1-19-3-A03_GACGATCT-ATGCACGA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+sjobs
+sjobs | less
+cd ..
+ls
+cd ..
+ls
+cd mapBWAmem/
+ls
+ls -ltrh
+cd ../3remDupMito/
+ls
+cat remDupMitoPISM_200923.sh
+ls
+cat remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+ls -lt
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-2-D02_GCTATCCT-CACCTGTT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-3-D03_GTGCCATA-ACTAGGAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-19-1-A01_CTGATCGT-ATATGCGC_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+ls
+cd ..
+ls
+sbatch --help
+scontrol --help
+ls
+sjobs
+squeue -u ble
+cd ../4PISM/
+ls
+cd lane01/
+ls
+cd ../../3remDupMito/lane01/
+ls
+cd ..
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-2-D02_GCTATCCT-CACCTGTT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+sjobs
+squeue -u ble
+ls
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+sjobs
+squeue -u ble
+sjobs
+squeue -u ble
+ls
+ls -lh
+cd ../map
+cd ../../mapBWAmem/
+ls
+cd lane0
+cd lane01
+ls -lh
+squeue -u ble
+scontrol show JobId=3548808
+scontrol show JobId=3548808 | grep mem
+scontrol show JobId=3549189
+sjobs
+squeue -u ble
+squeue -u marielle
+squeue -p steinlab
+scontrol show JobID=3548813
+sjobs
+squeue -u ble
+ls
+cd ..
+l
+sls
+ls
+cd ../
+ls
+cd 3remDupMito/
+ls
+cat remDupMito_2-84-3-F09_TTGCAGAC-ACCACGAT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+cd ..
+ls
+cd lane01/
+ls
+cat 3-7-4-E04_GCACAACT-ACGTTCAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 3-7-4-E04_GCACAACT-ACGTTCAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cat 3-19-5-F05_GTCATCGA-AGTGGATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 3-19-5-F05_GTCATCGA-AGTGGATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cat 3-7-3-E03_GAATCCGA-CACTAGCT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+squeue -u ble
+ls
+squeue -u ble
+sjobs
+squeue -u ble
+ls
+cd ../../4PISM/
+ls
+cd lane01/
+ls
+cd ../../3remDupMito/lane01/
+ls
+sjobs
+squeue -u ble
+ls
+cd ..
+ls
+cat remDupMito_3-7-6-E06_GTTACGCA-ATCGCCAT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cat remDupMito_1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+squeue -u ble
+scontrol show JobID=3549169
+sjobs
+l
+ls
+sjobs
+vim remDupMitoPISM.R
+cd ../4PISM/lane02
+ls
+cd ../lane01/
+ls
+sjobs
+cd ..
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM.R
+cat remDupMitoPISM.R
+sjobs
+squeue -u ble
+ls
+ls -lh
+cat remDupMito_5-73-6-C06_ACTGAGGT-CTGTTGAC_H2NTWDSXY_L002_001_adapTrimmed_sort.log
+cat remDupMito_2-84-6-F12_AACCGTTC-TGAGCTAG_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01
+ls
+ls -lh
+ls | wc -l
+ls
+ls | grep 1-19
+ls | grep 1-75
+ls | grep 1-75 | wc -l
+ls | grep 1-82 | wc -l
+ls | grep 1-147 | wc -l
+ls
+cd /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/23/09_23_2020_11_27_53_526
+cd /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/23/
+09_23_2020_11_27_53_526
+cat 09_23_2020_11_27_53_526
+sjobs
+scontrol show JobID=3549194
+cat 09_23_2020_11_27_53_692
+scontrol show JobID=3549174
+cat 09_23_2020_11_27_53_556
+scontrol show JobID=3549193
+cat 09_23_2020_11_27_53_692
+sjobs
+squeue -u ble
+sjobs
+cd $SCR
+cd ATACtemp/NYGC_1/
+ls
+cd 3remDupMito/
+ls
+sjobs
+squeue -u ble
+cd lane01
+ls | grep 2-2 | wc -l
+ls | grep 2-2
+ls | grep 2-10 | wc -l
+ls | grep 2- | wc -l
+ls | grep 2-
+ls | grep 2-56 | wc -l
+ls | grep 2-61 | wc -l
+ls | grep 2-64 | wc -l
+ls | grep 2-84 | wc -l
+ls | grep 2-84 
+squeue -u ble
+squeue -p steinlab
+ls
+cd ..
+ls
+cd lane02
+ls
+cd ../lane01
+ls
+cd ../lane03
+ls
+cd ..
+ls
+cp remDupMitoPISM.R remDupMitoPISM3.R
+ls
+vim remDupMitoPISM3.R 
+R CMD BATCH --no-save --verbose remDupMitoPISM3.R
+cp remDupMitoPISM3.R remDupMitoPISM4.R
+vim remDupMitoPISM4.R 
+R CMD BATCH --no-save --verbose remDupMitoPISM4.R
+squeue --status=RUNNING
+squeue --state=RUNNING
+squeue --state=RUNNING --user=ble
+squeue --user=ble
+ls
+ls | less
+ls -lht | less
+cd ..
+ls
+cd ..
+ls
+du -sh *
+cd ..
+ls
+sjobs
+sjobs --state=RUNNING
+sjobs --state=RUNNING | wc -l
+sjobs --state=PENDING | wc -l
+sjobs -p steinlab | wc -l
+sjobs -p steinlab
+sjobs -p general | wc -l
+sjobs -p general | less
+cd $PROJ/Wnt20
+ls
+cd GWA_prolif_dS_88donors/
+ls
+module list
+plink --tfile /proj/steinlab/projects/Wnt20/genotype/GenoFilt_88donors_200513/chr3.rmNkx_88donors.frqx --ld rs11709284 rs1108842 -out /proj/steinlab/projects/Wnt20/GWA_prolif_dS_88donors/LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842
+plink --tfile /proj/steinlab/projects/Wnt20/genotype/GenoFilt_88donors_200513/chr3.rmNkx_88donors.frqx --ld chr3:52525689:G:A chr3:52686064:A:C -out /proj/steinlab/projects/Wnt20/GWA_prolif_dS_88donors/LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842
+ls
+cat LD_Prolif_LiCl_1.5mM_rs11709284_rs1108842.log
+sjobs
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+cd lane04/
+ls
+ls | wc -l
+cd ../lane03/
+ls | wc -l
+cat 8-69-8-C08_AGTGGATC-GTCATCGA_H2NTWDSXY_L004_001_adapTrimmed_sort_remDup_metrics.txt
+ls
+cat 7-76-6-H12_ATATGCGC-CTGATCGT_H2NTWDSXY_L003_001_adapTrimmed_sort_remDup_metrics.txt
+cat 7-76-6-H12_ATATGCGC-CTGATCGT_H2NTWDSXY_L003_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls
+cd ..
+ls
+cd lane02
+ls | wc -l
+cd ../lane01
+ls
+ls | wc -l
+cd ..
+ls
+cp remDupMitoPISM.R remDupMitoPISM_resub_2-84-2.R
+ls
+vim remDupMitoPISM_resub_2-84-2.R
+cd ../4PISM/lane01
+ls
+cd ../3
+cd ../../3remDupMito/
+ls
+R CMD BATCH --no-save --verbose remDupMitoPISM_resub_2-84-2.R
+squeue -u ble
+cat remDupMito_8-60-2-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L004_001_adapTrimmed_sort.log
+squeue -u ble
+ls
+squeue -u ble
+ls
+cat remDupMito_2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort.log
+cd lane01/
+ls
+ls | wc -l
+cat 2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt
+cat 2-84-2-F08_CGCAATCT-ATGCCTGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+ls -lhts
+ls -lhtsr
+cd ..
+grep "error" *log
+grep "rror" *log
+ls
+cat remDupMito_8-60-4-A08_ATGACGTC-GAAGGAAG_H2NTWDSXY_L004_001_adapTrimmed_sort.log
+grep "ln:" *log
+grep "ln:" *log | wc -l
+grep "longleaf" *log | wc -l
+ls
+cd lane01/
+ls
+ls -l
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh *
+df --help
+df -h *
+df -H *
+sjobs
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+pwd
+ls
+mkdir logs_remDupMitoPISM_200925/
+mv *.log ./logs_remDupMitoPISM_200925/
+ls
+grep "rror" ./logs_remDupMitoPISM_oom_200922/*.log
+grep "rror" ./logs_remDupMitoPISM_oom_200922/*.log | wc -l
+ls ./logs_remDupMitoPISM_oom_200922/ | wc -l
+grep "rror" ./logs_remDupMitoPISM_200925/*.log | wc -l
+cd $SCR
+ls
+cd $LOGS
+ls
+cd 2020
+ls
+cd 09
+ls
+cd 24
+ls
+cd 24/
+ls
+cd 24/
+ls
+pwd
+cd 24
+ls
+cat 09_24_2020_02_19_53_816
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+grep "FAIL" ./*
+cd 24
+ls
+grep "FAIL" ./*
+ls
+grep "FAIL" ./*
+grep "FAIL" ./09*
+grep "COMPLETED" ./09*
+grep "CANCEL" ./09*
+grep "CANCEL" ./09* | wc -l
+ls
+pwd
+grep "FAILED" ./09* | wc -l
+grep "COMP" ./09* | wc -l
+ls | wc -l
+grep "COMP" ./09*
+grep "COMPLET" ./09*
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+ls
+cd 24
+ls
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+pwd
+cd 24
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+pwd
+ls
+cd 24
+ls
+pwd
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+ls | wc -l
+pwd
+cd 24
+ls
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+pwd
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+pwd
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+pwd
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+cd 24
+pwd
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+pwd
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+cd 24
+ls
+grep "COMPLET" ./09* | wc -l
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+pwd
+ls
+ls | wc -l
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+ls | wc -l
+grep "COMPLET" ./09* | wc -l
+grep "FAIL" ./09* | wc -l
+cd 24
+ls
+pwd
+grep "FAIL" ./09* | wc -l
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+pwd
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+pwd
+ls
+cd 24
+grep "COMPLET" ./09* | wc -l
+ls | wc -l 
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+cd 24
+grep "COMPLET" ./09* | wc -l
+ls
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+pwd
+ls
+pwd
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+cd 24/
+grep "COMPLET" ./09* | wc -l
+grep --help
+grep -rl "COMPLET" .
+grep -rl "COMPLET" . | wc -l
+wc -l
+ls
+ls | wc -l
+grep -rl "COMPLET" . | wc -l
+grep -rl "COMPLET" /24 | wc -l
+ls
+pwd
+cd 24
+ls
+pwd
+grep -rl "COMPLET" /24 | wc -l
+grep -rl "COMPLET" 24 | wc -l
+grep -rl "COMPLET" . | wc -l
+cd $SCR
+ls
+cd cd $LOGS
+ls
+cd $LOGS
+ls
+cd 2020
+ls
+cd 09/24
+ls
+cd ..
+ls
+cd 24
+ls
+grep -rl "COMPLET" /24 | wc -l
+ls -ltrh
+cd 24
+ls
+cd 24
+ ls
+cd ../23
+ls
+ls | wc -l
+grep "COMPLETE" | wc -l
+cat 09_23_2020_15_52_38_342
+cd ..
+ls
+cd 23
+ls
+grep "COMPLETE" . | wc -l
+grep "COMPLETE" ./* | wc -l
+ls | wc -l
+grep "FAIL" ./* | wc -l
+grep "CANCEL" ./* | wc -l
+cd ..
+ls
+cd 22
+ls
+cat 09_22_2020_18_59_11_302 
+ls
+cd ../21
+ls
+cd /pine/scr/m/a/marielle/steinlab/NYGC/ataqv/ataqv/ataqv_NYGC1
+ls
+cd ..
+ls
+du -sh *
+pqd
+pwd
+ls
+cd ..
+ls
+pwd
+ls
+cd ataqv/
+ls
+cd ataqv_NYGC1/
+ls
+cd ..
+ls
+cat mkarv.out
+cat mkarv.err
+ls
+pwd
+/pine/scr/m/a/marielle/steinlab/NYGC/ataqv/ataqv/ataqv_NYGC1
+cd /pine/scr/m/a/marielle/steinlab/NYGC/ataqv/ataqv/ataqv_NYGC1
+ls
+cd ..
+ls
+scp --help
+man scp
+scp ataqv_NYGC1/ /Users/biznaga/Documents/data/WntPhase2_ATACseq/QC_NYGC
+scp -r ataqv_NYGC1/ /Users/biznaga/Documents/data/WntPhase2_ATACseq/QC_NYGC
+pwd
+ls
+du -sh *
+cd ~
+ls
+vim /pine/scr/b/l/ble/ATACtemp/NYGC_1/3remDupMito/mergebams.sh
+ls
+cat /pine/scr/b/l/ble/ATACtemp/NYGC_1/3remDupMito/mergebams.sh
+ls
+pwd
+cd BIOS781/
+ls
+cd ..
+ls
+pwd
+git clone https://github.com/elnodnarb/bashstories.git
+ls
+vim ./bashstories/bashstory_saver.sh
+ls
+cd bashstories/
+ls
+ls -l
+chmod 754 *
+ls -l
+chmod 744 *
+ls -l
+bash bashstory_saver.sh
+ls
+vim bashstory_saver.sh 
+ls
+vim bashstory_saver.sh 
+bash bashstory_saver.sh
+ls
+date --help
+vim bashstory_saver.sh 
+bash bashstory_saver.sh
+vim bashstory_saver.sh 
+bash bashstory_saver.sh
+ls
+ls -a
+ls -la
+vim .txt
+bash bashstory_saver.sh
+date
+date + '%Y'
+echo $(date)
+echo $(date + '%Y')
+echo $(date + '%d')
+echo $(date + %d)
+date --help
+date +%Y
+echo $(date +%Y)
+echo $(date +%Y%m)
+echo $(date +%Y/%m)
+vim bashstory_saver.sh 
+bash bashstory_saver.sh 
+ls -a
+echo $(date +%Y/%m)
+$(date +%Y/%m)
+date +%Y/%m
+today_date=$(date +%Y/%m)
+today_date
+echo $today_date 
+vim bashstory_saver.sh 
+echo $today_date
+mkdir -p $today_date
+ls
+vim bashstory_saver.sh 
+ls
+bash bashstory_saver.sh
+sjobs
+cd $SCR/ATACtemp
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+cd ..
+du -sh *
+ls
+cd 3remDupMito/
+ls
+pwd
+cat *3.sh
+ls
+cd lane01
+ls
+pwd
+cd ..
+ls
+cat *3.sh
+ls
+chmod 754 mergebams.sh 
+ls -l
+module list
+squeue -p steinlab
+bash mergebams.sh
+sjobs
+ls
+sjobs
+ls
+squeue - u ble
+squeue -u ble
+sjobs
+cd ~
+ls
+pwd
+ls
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/
+ls
+cd $PROJ/Wnt20
+ls
+pwd
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/
+sjobs
+ls
+sjobs
+man mkdir
+man set
+set --help
+man set
+ls
+cd bashstories/
+ls
+cd 2020/
+ls
+cd 09/
+ls
+cd ..
+ls
+cd ..
+ls
+bash --help
+bash --verbose bashstory_saver.sh
+ls
+vim bashstory_saver.sh 
+bash bashstory_saver.sh 
+ls
+cd 2020/
+ls
+cd 09/
+ls
+cat 24.txt | wc -l
+ls
+cat 24.txt | less
+sjobs
+ls
+squeue -u ble
+pwd
+echo `
+echo ~
+cd ~/bashstories/
+ls
+sjobs
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/4PISM/
+ls
+du -sh *
+ls
+cd lane01
+ls
+cat 3-19-3-F03_TCGCTGTT-ACGACTTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.txt
+cat 3-19-3-F03_TCGCTGTT-ACGACTTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.txt | less
+sjobs
+ls
+pwd
+cd $LOGS
+ls
+cd 2020/09/25
+cd 2020/09/24
+ls
+cat 09_24_2020_17_25_42_590
+cat 09_24_2020_17_25_42_192
+ls
+cat 09_24_2020_11_47_55_794
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/4PISM/
+pwd
+du -sh *
+sjobs
+ls
+cd ../3
+cd ../3remDupMito/
+ls
+sjobs
+scontrol show JobID=3629773
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/24/09_24_2020_17_25_42_192
+sjobs
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/3remDupMito/
+ls
+du * -sh
+pwd
+cd $SCR
+du -sh *
+sjobs
