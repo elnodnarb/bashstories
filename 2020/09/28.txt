@@ -1,0 +1,1000 @@
+date +%Y
+echo $(date +%Y)
+echo $(date +%Y%m)
+echo $(date +%Y/%m)
+vim bashstory_saver.sh 
+bash bashstory_saver.sh 
+ls -a
+echo $(date +%Y/%m)
+$(date +%Y/%m)
+date +%Y/%m
+today_date=$(date +%Y/%m)
+today_date
+echo $today_date 
+vim bashstory_saver.sh 
+echo $today_date
+mkdir -p $today_date
+ls
+vim bashstory_saver.sh 
+ls
+bash bashstory_saver.sh
+sjobs
+cd $SCR/ATACtemp
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+cd ..
+du -sh *
+ls
+cd 3remDupMito/
+ls
+pwd
+cat *3.sh
+ls
+cd lane01
+ls
+pwd
+cd ..
+ls
+cat *3.sh
+ls
+chmod 754 mergebams.sh 
+ls -l
+module list
+squeue -p steinlab
+bash mergebams.sh
+sjobs
+ls
+sjobs
+ls
+squeue - u ble
+squeue -u ble
+sjobs
+cd ~
+ls
+pwd
+ls
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/
+ls
+cd $PROJ/Wnt20
+ls
+pwd
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/
+sjobs
+ls
+sjobs
+man mkdir
+man set
+set --help
+man set
+ls
+cd bashstories/
+ls
+cd 2020/
+ls
+cd 09/
+ls
+cd ..
+ls
+cd ..
+ls
+bash --help
+bash --verbose bashstory_saver.sh
+ls
+vim bashstory_saver.sh 
+bash bashstory_saver.sh 
+ls
+cd 2020/
+ls
+cd 09/
+ls
+cat 24.txt | wc -l
+ls
+cat 24.txt | less
+sjobs
+ls
+squeue -u ble
+pwd
+echo `
+echo ~
+cd ~/bashstories/
+ls
+sjobs
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/4PISM/
+ls
+du -sh *
+ls
+cd lane01
+ls
+cat 3-19-3-F03_TCGCTGTT-ACGACTTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.txt
+cat 3-19-3-F03_TCGCTGTT-ACGACTTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_insMat.txt | less
+sjobs
+ls
+pwd
+cd $LOGS
+ls
+cd 2020/09/25
+cd 2020/09/24
+ls
+cat 09_24_2020_17_25_42_590
+cat 09_24_2020_17_25_42_192
+ls
+cat 09_24_2020_11_47_55_794
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/4PISM/
+pwd
+du -sh *
+sjobs
+ls
+cd ../3
+cd ../3remDupMito/
+ls
+sjobs
+scontrol show JobID=3629773
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/09/24/09_24_2020_17_25_42_192
+sjobs
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/3remDupMito/
+ls
+du * -sh
+pwd
+cd $SCR
+du -sh *
+sjobs
+cd $SCR
+ls
+df --help
+df -h *
+pwd
+ls
+df -H *
+df -BM *
+df -BMh *
+df -BM -h *
+df -BM -hl *
+df -l *
+du -sh *
+cd $PROJ
+ls
+cd ..
+ls
+df -h
+pwd
+du -sh /raw
+
+du -sh raw
+ls
+cd projects/
+ls
+cat plink.prune.in 
+ls
+du -sh MPRA
+du -sh Wnt*
+du -sh ENIGMA3/
+echo $PROJ
+df -h $PROJ
+df -h /proj/steinlab
+ssub -p steinlab -N 1 --mem=16g --notify=ON --wrap\"du -sh $PROJ/*\"
+ssub -p steinlab -N 1 --mem=16g --notify=ON --wrap=\"du -sh $PROJ/*\"
+squeue -p steinlab
+sjobs
+scontrol --JobID=3634391
+scontrol show --JobID=3634391
+scontrol show JobID=3634391
+ls
+sjobs
+squeue -p steinlab
+sjobs -p steinlab
+sjobs
+ls
+module list
+cd $SCR
+cd ATACtemp/NYGC_1/3remDupMito/
+ls
+vim PISM_merged.sh
+squeue -p steinlab
+ls
+ls -lh
+chmod 754 PISM_merged.sh
+ls
+ls -l
+vim PISM_merged.sh 
+bash PISM_merged.sh
+sjobs
+squeue -p steinlab
+squeue -u ble
+sjobs
+ls
+sjobs
+squeue -p steinlab
+ls
+pwd
+sjobs
+cd ~
+ls
+ls -a
+vim .bashrc
+ls
+cd $PROJ
+ls
+cd ../raw/
+ls
+cd wnt
+ls
+cd ATACseq/
+ls
+cd NYGC_1/
+ls
+du -sh * | less
+sjobs
+squeue -p steinlab
+ls
+cd ..
+ls
+cd $PROJ
+ls
+cd WntATAC/
+ls
+cd NYGC1/
+ls
+du -sh *
+cd trimNextera/
+ls
+vim trimAdaptors.R 
+ls -l
+rm trimAdaptors.R 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd WntATAC/
+ls
+vim README.txt 
+cp README.txt README.md
+ls
+ls -l
+vim README.md
+rm README.txt
+ls
+ls ~/bashstories/
+bash ~/bashstories/bashstory_saver.sh
+ls
+cd ~/bashstories/
+ls
+vim README.md 
+git status
+git diff
+ls
+bash bashstory_saver.sh 
+git config --global user.name "Bran(don) Le"
+git config --global user.email ble@email.unc.edu
+git config --global push.default simple
+cd ~
+ls
+cd .ssh
+ls
+cat id_rsa.pub
+bash ~/bashstories/bashstory_saver.sh
+git config --global user.name "elnodnarb"
+bash ~/bashstories/bashstory_saver.sh
+git config --global user.email ble@longleaf-login2.its.unc.edu
+bash ~/bashstories/bashstory_saver.sh
+git config --global user.name "ble"
+bash ~/bashstories/bashstory_saver.sh
+ls
+cd ~
+ls
+cd bashstories/
+ls
+vim README.md 
+git config
+git config --get
+git config --get-all
+ls
+vim bashstory_saver.sh 
+git remote --help
+git status
+vim README.md 
+ls
+git config --global user.name "elnodnarb"
+git config --global user.email elnodnarb@git.com
+cd ~/.ssh
+ls
+cd config
+ls -a
+cat authorized_keys 
+cat known_hosts 
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 4
+cd 4PISM/
+ls
+imgcat PISM_merged_lane03.pdf 
+sjobs
+squeue -p steinlab
+ls
+sjobs
+ls
+du -sh *
+pwd
+sjobs
+ls
+cd $PROJ/ATAC
+cd $PROJ/WntATAC
+cd $PROJ/
+ls
+cd WntATAC/
+ls
+cd HTSF1/
+ls
+cd ..
+
+module avail
+module keyword hmm
+module key macs
+bash ~/bashstories/bashstory_saver.sh
+cd /proj/steinlab/projects/atacseq/MinimalNecessary_Dan/BlackListhg19/
+ls
+cd ..
+ls
+cd ..
+ls
+find --help
+find -iname "blacklist"
+find -iname -path "blacklist"
+find -path "blacklist"
+find -path "black"
+ls
+cd MinimalNecessary_Dan/
+ls
+cd BlackListhg19/
+ls
+pwd
+ls -l
+cd $PROJ/WntATAC
+ls
+cat README.md 
+ls -l
+cd $SCR
+ls
+cat listfiles_NYGC_1.txt 
+ls
+pwd
+cd `
+exit()
+quit()
+cd ~
+ls
+cat du_20200915.txt
+cat start.sh
+ls
+cd $LOGS
+ls
+cd 2020
+ls
+cd09
+cd 09
+ls
+cd 25
+ls
+cat 09_25_2020_14_52_36_716
+ls
+cat 09_25_2020_13_22_12_252
+cat 09_25_2020_13_22_28_024
+cat 09_25_2020_13_22_28_024 | less
+tail 09_25_2020_13_22_28_024
+tail 09_25_2020_13_22_28_024 -n 50
+cd $PROJ/Wnt
+ls
+cd GWAS/
+ls
+head 09_25_2020_13_22_28_024 -n 50
+cd $LOGS/20/09/25
+ls
+cd $LOGS
+ls
+cd 2020/09/25
+ls
+head 09_25_2020_13_22_28_024
+cat 09_25_2020_13_22_28_024 | less
+ls
+cat 09_25_2020_14_52_36_007
+cd ..
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/3remDupMito/
+ls
+cd lane01/
+pwd
+ls
+pwd
+cd ../../4PISM/
+ls
+cd lane01/
+ls
+pwd
+sjobs
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir 5remBlackList
+mkdir 6callPeaks_MACS2
+ls
+mv mapBWAmem/ 2mapBWAmem
+ls
+mv trimNextera/ 1trimNextera
+ls
+ls -l
+cd 5remBlackList/
+ls
+mkdir lane01 lane02 lane03 lane04
+cd ../6callPeaks_MACS2/
+mkdir lane01 lane02 lane03 lane04
+ls
+cd ../5remBlackList/
+ls
+pwd
+cd ../4PISM/
+ls
+mkdir ../5remBlackList/PISM_remBlacklist/lane01 ../5remBlackList/PISM_remBlacklist/lane02 ../5remBlackList/PISM_remBlacklist/lane03 ../5remBlackList/PISM_remBlacklist/lane04
+cd ../5remBlackList/
+ls
+mkdir PISM_remBlacklist
+ls
+cd PISM_remBlacklist/
+ls
+mkdir lane01 lane02 lane03 lane04
+pwd
+sjobs
+module --help
+module keyword macs
+module avail
+module list
+ls
+cd ..
+ls
+cd ..
+ls
+cd 2mapBWAmem/
+ls
+cat sortindex.sh
+ls
+cat sortindex_resub_lane04.R
+ls
+cd ..
+ls
+cat sortindex.sh
+ls
+cd 2mapBWAmem/
+ls
+cat sortindex.sh
+cat sortindex_lane02.R 
+ls
+cd lane01/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+cd lane01/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.R
+ls -l
+chmod 754 remBLpeaksMACS2.R 
+ls
+module list
+module add bedtools
+module load macs
+module list
+ls
+bsub --help
+sbatch --help
+cd ../3remDupMito/
+ls
+cd lane01/
+ls
+cd ..
+ls
+ls -ltrh
+cd ../6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.sh
+head remBLpeaksMACS2.sh 
+ls
+chmod 754 remBLpeaksMACS2.sh
+ls
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane02.R remBLpeaksMACS2_lane03.R remBLpeaksMACS2_lane04.R
+cp remBLpeaksMACS2.R ./remBLpeaksMACS2_lane02.R ./remBLpeaksMACS2_lane03.R ./remBLpeaksMACS2_lane04.R
+ls
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane0
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane03.R
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane04.R
+ls
+vim remBLpeaksMACS2.sh
+vim remBLpeaksMACS2.R
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+squeue -p steinlab
+ls
+cat remBLpeaksMACS2.Rout
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+cd lane01/
+ls
+sjobs
+ls
+cd ..
+ls
+cd ../6callPeaks_MACS2/
+ls
+cd ../5remBlackList/
+ls
+cd lane01/
+ls
+cat NA.out
+pwd
+cd ../../6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.R
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+ls
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane02.R
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane03.R
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane04.R
+vim remBLpeaksMACS2_lane04.R
+vim remBLpeaksMACS2_lane03.R
+vim remBLpeaksMACS2_lane02.R
+vim remBLpeaksMACS2_lane03.R
+vim remBLpeaksMACS2_lane04.R
+ls
+cat remBLpeaksMACS2.Rout
+ls
+sjobs
+squeue -p steinlab
+ls
+vim remBLpeaksMACS2.sh
+module list
+squeue -p steinlab
+ls
+cd lane01/
+ls
+ls -lh
+cd ..
+ls
+cd ..
+ls
+cd 5remBlackList/
+ls
+cd lane01/
+ls
+cat 3-25-1-G01_CGCATGAT-TCAGGCTT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls -ltrh
+ls -lth
+cat NA.out
+ls
+sjobs
+ls
+squeue -u ble
+cd ..
+ls
+cd PISM_remBlacklist/
+ls
+cd lane01/
+ls
+ls -lt
+ls
+imgcat 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL.pdf
+cat 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL.txt
+head 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL.txt
+squeue -u ble
+ls
+cd ..
+ls
+cd ..
+ls
+cd 6
+cd ../6callPeaks_MACS2/
+lsls
+ls
+cd lane01/
+ls
+sjobs
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 6callPeaks_MACS2/
+ls
+cd lane01/
+ls
+head 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL_peaks.xls
+tail 3-7-1-E01_CTTGTCGA-GAACATCG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL_peaks.xls
+ls
+ls -lh
+ls
+cd ..
+ls
+cd ..
+ls
+cd 5remBlackList/
+ls
+cd lane01/
+ls
+ls -lh
+ls
+rm NA_noblacklist.bam
+rm NA.out 
+rm _noblacklist.bam
+ls
+ls | wc -l
+sjobs
+squeue -p steinlab
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cd ..
+cd lane01
+ls
+cat 3-7-3-E03_GAATCCGA-CACTAGCT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cd ..
+ls
+cd PISM_remBlacklist/
+ls
+cd lane0
+cd lane01
+ls
+cat 2-61-6-D12_GAACATCG-CTTGTCGA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL.pdf
+ls
+imgcat 2-61-6-D12_GAACATCG-CTTGTCGA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL.pdf
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd 6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.R
+vim remBLpeaksMACS2.sh
+ls
+vim remBLpeaksMACS2.R
+vim remBLpeaksMACS2.sh
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+ls
+cat remBLpeaksMACS2.Rout
+ls
+vim remBLpeaksMACS2.sh
+module list
+module load macs
+module load bedtools
+ls
+module list
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+ls
+cat remBLpeaksMACS2.Rout
+ls
+cat ~/.bashrc
+ls
+vim remBLpeaksMACS2.sh
+vim remBLpeaksMACS2.R
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+cat remBLpeaksMACS2.Rout
+vim remBLpeaksMACS2.sh
+vim remBLpeaksMACS2.R
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+squeue -u ble
+squeue -p steinlab
+ls
+cd lane01/
+ls
+ls -t
+ls -lt
+cd ../../5remBlackList/
+ls
+cd lane01
+ls
+ls -lt
+ls -ltr
+cat1-75-3-B03_AACTGAGC-CCTGATTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-75-3-B03_AACTGAGC-CCTGATTG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-75-2-B02_ATCGATCG-TGCTTCCA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+macs2 --help
+module list
+macs2 COMMAND -h
+macs2 callpeak -h
+module list
+squeue -u ble
+scancel --user=ble
+squeue -u ble
+ls
+cd ..
+ls
+cd ../6callPeaks_MACS2/
+ls
+samtools view --help
+sjobs
+ls
+cd lane01
+ls
+head 1-19-6-A06_GTTGTTCG-GAAGTTGG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT_noBL_peaks.narrowPeak
+cd ..
+ls
+cd ../5remBlackList/
+ls
+cd lane01/
+ls
+cat 3-25-2-G02_AGAGTAGC-TACGCCTT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls -ltr
+cat 1-82-3-C03_CTTAGGAC-GTAGGAGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls
+cd ..
+cd lane01
+ls -ltr
+cat 1-75-4-B04_GTCGAAGA-CAATGTGG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls
+module list
+ls
+cd ..
+ls
+cd ..
+ls
+cd 6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.R
+vim remBLpeaksMACS2.sh
+ls
+cd lane01/
+ls
+rm *noBL*
+ls
+cd ..
+ls
+cd ../5remBlackList/lane01/
+ls
+rm *remDupMT*
+ls
+cd ..
+ls
+cd ../6callPeaks_MACS2/
+ls
+R CMD BATCH --no-save --verbose remBLpeaksMACS2.R
+sjobs
+squeue -u ble
+scontrol --help
+scontrol show JobID=3711507
+ls
+cat remBLpeaksMACS2.Rout
+cd ../5remBlackList/lane01
+ls
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-19-4-A04_CCTTGATC-ACTCCATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+sjobs
+ls
+cat 1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-19-4-A04_CCTTGATC-ACTCCATC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-147-5-D05_CAACACCT-TGGTAGCT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+squeue -u ble
+ls
+cd ..
+ls
+cd ..
+cd 6callPeaks_MACS2/
+ls
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane02.R
+ls
+cp remBLpeaksMACS2.R remBLpeaksMACS2_lane02.R
+vim remBLpeaksMACS2_lane02.R 
+R CMD BATCH --verbose --no-save remBLpeaksMACS2_lane02.R
+squeue -p steinlab
+squeue -u ble
+ls
+cp remBLpeaksMACS2_lane02.R remBLpeaksMACS2_lane03.R
+cp remBLpeaksMACS2_lane02.R remBLpeaksMACS2_lane04.R
+vim remBLpeaksMACS2_lane03.R 
+R CMD BATCH --verbose --no-save remBLpeaksMACS2_lane03.R
+vim remBLpeaksMACS2_lane04.R 
+cat remBLpeaksMACS2_lane03.R
+ls
+vim remBLpeaksMACS2_lane04.R 
+R CMD BATCH --verbose --no-save remBLpeaksMACS2_lane04.R
+sjobs
+ls
+cat remBLpeaksMACS2_lane03.Rout
+cat remBLpeaksMACS2_lane04.Rout
+ls
+sjobs | wc -l
+cd ../5remBlackList/lane01
+ls
+ls -ltr
+cat 1-147-4-D04_GATTACCG-CAGTCCAA_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls -ltr
+cat 1-19-2-A02_CGGCTAAT-AGAACGAG_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls
+ls -ltr
+cat 1-82-2-C02_GCAAGATC-CTTCGACT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cat 1-19-5-A05_GTGAAGTG-GATTGCTC_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+ls
+find --help
+ls
+cat 1-82-3-C03_CTTAGGAC-GTAGGAGT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+cd ../lane02
+ls
+ls -lt
+cat 3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT.out
+squeue -u ble
+squeue -u ble | wc -l
+sjobs
+cd $SCR/ATACtemp
+ls
+cd NYGC_1/5remBlackList/
+cd lane0
+cd lane01
+cd lane03
+cd ../lane03/
+ls
+cat 7-76-1-H07_GAAGTTGG-GTTGTTCG_H2NTWDSXY_L003_001_adapTrimmed_sort_remDupMT.out
+ls
+ls | wc -l
+cd ..
+ls
+cd lane02/
+ls
+ls | wc -l
+cd ../lane01/
+ls
+ls | wc -l
+quit
+exit
+sjobs
+ls
+cd $SCR/
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 5remBlackList/
+ls
+cd lane01/
+ls
+ls | wc -l
+ls ../lane02 | wc -l
+ls ../lane03 | wc -l
+ls ../lane04 | wc -l
+cat 3-7-5-E05_TGTGACTG-GATAGGCT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDupMT.out
+grep "rror" *.out
+grep "done" *.out
+grep "ERROR" *.out
+grep "rror" *.out
+ls
+cd ../../6callPeaks_MACS2/
+ls
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/
+ls
+pwd
+cd ..
+ls
+cd NYGC_1/3remDupMito/
+ls
+cd ../2mapBWAmem/
+ls
+cat mapBWAmem.sh
+cd ..
+ls
+cd 6callPeaks_MACS2/
+ls
+vim remBLpeaksMACS2.sh
+ls
+cd lane04
+ls
+cd ..
+ls
+cd ..
+cd 5remBlackList/
+ls
+grep "rror" ./lane01/*.out
+grep "rror" ./lane02/*.out
+grep "rror" ./lane03/*.out
+grep "rror" ./lane04/*.out
+grep "RROR" ./lane04/*.out
+grep "RROR" ./lane03/*.out
+ls
+cd lane02/
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh *
+cd 5remBlackList/lane02
+ls
+3-104-6-H06ls -lhs
+ls -lhs
+ls
+cd ..
+ls
+grep "rror" ./lane01/*.out
+grep "rror" ./lane02/*.out
+grep "rror" ./lane03/*.out
+grep "rror" ./lane04/*.out
+cd $SCR/ATACtemp
+ls
+cd NYGC_1/
+ls
+cd 3remDupMito/
+ls
+ls -lhs
+cd ../4PISM/
+ls
+cat PISM_merged_lane01.txt | less
+cd ..
+ls
+cd 3remDupMito/
+ls
+cd lane01/
+ls
+cat 3-7-6-E06_GTTACGCA-ATCGCCAT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+pwd
+cat 3-7-6-E06_GTTACGCA-ATCGCCAT_H2NTWDSXY_L001_001_adapTrimmed_sort_remDup_metrics.txt | less
+cd ..
+ls
+cd ..
+ls
+cd 4PISM/
+ls
+cd lane02/
+ls
+cat 5-73-2-C02_GCAAGATC-CTTCGACT_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT_insMat.txt | less
+ls
+cd ..
+ls
+cd 3remDupMito/
+ls
+vim mergebams.sh
+cd lane02
+ls
+cd ..
+ls
+vim remDupMitoPISM.sh
+ls
+exit
+cd $SCR
+ls
+cd ATACtemp/NYGC_1/
+ls
