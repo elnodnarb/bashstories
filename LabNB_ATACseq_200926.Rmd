@@ -1,0 +1,59 @@
+---
+title: "Lab NB: Wnt Phase 2 ATACseq - 200926"
+autor: "Bran(don) David Le / Stein Lab"
+output: html_document
+---
+***
+### Sunday, September 27, 2020
+Validating the completion of **remBlacklistCallPeaksMACS2.R**:  
+
+* Removing blacklisted regions  
+
+  + no failed jobs, all expected files generated  
+```{r, echo=FALSE, tidy=TRUE}
+lane <- c("lane01","lane02","lane03","lane04")
+nlibs <- c(74,72,76,75)
+batches <- data.frame(x=lane,y=nlibs)
+colnames(batches) <- c("lane","nLibs")
+print(batches)
+```
+  + errors detected for lane02, sample 3-104-6, as expected    
+```{bash eval=FALSE}
+grep "rror" ./lane02/*.out  
+>./lane02/3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT.out:Exception struct.error: 'unpack requires a string argument of length 4' in 'MACS2.IO.Parser.BAMParser.tsize' ignored  
+>./lane02/3-104-6-H06_ACAGCTCA-GAGCAGTA_H2NTWDSXY_L002_001_adapTrimmed_sort_remDupMT.out:ZeroDivisionError: float division by zero  
+```  
+
+2. Calling peaks with MACS2  
+
+***
+
+#### Read balance checks: Pools/Lanes  
+Fragment size distributions from Picard Insert Size Metrics  
+Lane 1, 2, 3, 4 clockwise from top left
+![](/Users/biznaga/Documents/data/WntPhase2_ATACseq/QC_NYGC/4PISM/PISM_hist_pool1234merged.png)  
+
+![](/Users/biznaga/Documents/data/WntPhase2_ATACseq/QC_NYGC/4PISM/PISM_plot.png)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+### Monday, September 28, 2020
+#### Counting Reads with SamTools
+Created `countReads.sh` script here: `/pine/scr/b/l/ble/ATACtemp/NYGC_1`, and locally here: `/repos/seq`  
+Counts mapped reads: Total, Dup removed, MT removed with `samtools view -c`  
+Can compare these to estimates from picard, etc.  
+
+`$ ssub -p steinlab -N 1 -n 1 --mem=24G -t 2- --notify=ON -o --wrap=\"countreads_total.sh\"`
+
+#### Counting Reads using Picard reports
+
+#### WASP read-mapping
+JLS recommends that we re-map reads using WASP instead of BWAmem...
+
+***
+```{r Knitted on:, echo=FALSE, tidy=TRUE}
+print(paste("Document knitted on:",date()))
+```
