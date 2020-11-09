@@ -1998,3 +1998,1003 @@ cd ble
 ls
 cd ATACtemp/
 ls
+du -sh *
+pwd
+mv 1trimNextera.tar.gz 1trimNextera_INCOMPLETE.tar.gz 
+ls
+ls -h
+ls -l
+ls
+pwd
+cd $SCR
+cd ATACtemp/NYGC_1/
+ls
+du -sh *
+ls
+rm 2mapBWAmem
+rm 2mapBWAmem.tar.gz
+ssub --mem=32g -t=2- --wrap=\"tar -cvzf /nas/longleaf/home/ble/ms/ATAC_WntPhase2/2mapBWAmem.tar.gz 2mapBWAmem\"
+ssub --mem=32g -t 2- --wrap=\"tar -cvzf /nas/longleaf/home/ble/ms/ATAC_WntPhase2/2mapBWAmem.tar.gz 2mapBWAmem\"
+sjobs
+ls
+sjobs
+ssub --mem=32g -t 2- --wrap=\"tar -cvzf /nas/longleaf/home/ble/ms/ATAC_WntPhase2/1trimNextera.tar.gz 1trimNextera\"
+sjobs
+ls
+du -sh *
+ssub --mem=32g -t 2- --wrap=\"tar -cvzf 1trimNextera.tar.gz 1trimNextera\"
+ssub --mem=32g -t 2- --wrap=\"tar -cvzf 2mapBWAmem.tar.gz 2mapBWAmem\"
+squeue -u ble
+ls
+squeue -u ble
+ls
+du -sh *
+cd WASP/2findIntersectingSNPs/
+ls
+grep "CANC" *.out
+grep "CANC" *.out | wc -l
+squeue -u ble
+scontrol show JobID=5495821
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/19/10_19_2020_11_13_05_289
+squeue -u ble
+scontrol show JobID= 5495821
+scontrol show JobID=5495821
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/19/10_19_2020_11_13_05_289
+scontrol show JobID=5495821
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1
+squeue -u ble
+sinfo 5495821
+sjobs --help
+squeue -u ble
+sjobs -j cat 5495821
+sjobs -j 5495821
+sinfo --help
+ls
+cd $SCR
+cd ATACtemp/NYGC_1/
+ls
+du -sh *
+ls
+sjobs
+squeue -u ble
+scontrol show JobID=5495821
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1
+ls
+du -sh *
+tar --help
+du -sh *
+squeue -u ble
+cd WASP/
+ls
+cd 2findIntersectingSNPs/
+grep "CANCEL" *.out
+grep "CANCEL" *.out | wc -l
+ls
+scp --help
+cd $PROJ
+ls
+cd Wnt20
+ls
+cd GWA_prolif_dS_88donors/
+ls
+du  -sh *
+R --interactive --no-save
+ls
+tar -czvf SNPs_dS_LiCl_1.5mM.txt.tar.gz SNPs_dS_LiCl_1.5mM.txt
+ls
+head SNPs_dS_LiCl_1.5mM.txt
+grep "21:18954018" SNPs_dS_LiCl_1.5mM
+grep "21:18954018" SNPs_dS_LiCl_1.5mM.txt
+grep "21:18954018" SNPs_dS_LiCl_0.75mM.txt
+grep "21:18954018" SNPs_dS_LiCl_3mM.txt
+vim check_SNPs.sh
+ls
+ls -l
+grep "21:18955109" SNPs_dS_LiCl_0.75mM.txt 
+grep "21:18955109" SNPs_dS_LiCl_1.5mM.txt 
+grep "21:18955109" SNPs_dS_LiCl_3mM.txt 
+grep "21:18940294" SNPs_dS_LiCl_0.75mM.txt 
+grep "21:18940294" SNPs_dS_LiCl_1.5mM.txt 
+grep "21:18940294" SNPs_dS_LiCl_3mM.txt 
+grep "21:18938575" SNPs_dS_LiCl0.75mM.txt 
+grep "21:18938575" SNPs_dS_LiCl1.5mM.txt 
+grep "21:18938575" SNPs_dS_LiCl_0.75mM.txt 
+grep "21:18938575" SNPs_dS_LiCl_1.5mM.txt 
+grep "21:18938575" SNPs_dS_LiCl_3mM.txt 
+du -sh *
+grep "21:18955109" SNPs_dS_LiCl_0.75mM.txt 
+grep "21:18955109" SNPs_dS_LiCl_1.5mM.txt 
+grep "21:18955109" SNPs_dS_LiCl_3.0mM.txt 
+grep "21:18955109" SNPs_dS_LiCl_3mM.txt 
+sjobs
+squeue -u ble
+grep "21:18954018" SNPs_dS_LiCl_0.75mM.txt 
+grep "21:18954018" SNPs_dS_LiCl_1.5mM.txt 
+grep "21:18954018" SNPs_dS_LiCl_3mM.txt 
+grep "21:18940294" SNPs_dS_LiCl_0.75mM.txt
+grep "21:18940294" SNPs_dS_LiCl_1.5mM.txt
+grep "21:18940294" SNPs_dS_LiCl_3mM.txt
+grep "21:18938575" SNPs_dS_LiCl_3mM.txt
+grep "21:18938575" SNPs_dS_LiCl_1.5mM.txt
+grep "21:18938575" SNPs_dS_LiCl_3mM.txt
+grep "21:18938575" SNPs_dS_LiCl_0.75mM.txt
+grep "7:18404796" SNPs_dS_LiCl_0.75mM.txt
+grep "7:18404796" SNPs_dS_LiCl_1.5mM.txt
+grep "7:18404796" SNPs_dS_LiCl_3mM.txt
+grep "7:18444419" SNPs_dS_LiCl_3mM.txt
+grep "1:34142944" SNPs_dS_LiCl_0.75mM.txt
+grep "1:34142944" SNPs_dS_LiCl_1.5mM.txt
+grep "1:34142944" SNPs_dS_LiCl_3mM.txt
+grep "1:34138966" SNPs_dS_LiCl_0.75mM.txt
+grep "1:34138966" SNPs_dS_LiCl_1.55mM.txt
+grep "1:34138966" SNPs_dS_LiCl_1.5mM.txt
+grep "1:34138966" SNPs_dS_LiCl_3mM.txt
+grep "8:21805336" SNPs_dS_LiCl_0.75mM.txt
+grep "8:21805336" SNPs_dS_LiCl_1.5mM.txt
+grep "8:21805336" SNPs_dS_LiCl_3mM.txt
+ls
+head SNPs_dS_LiCl_1.5mM.txt
+ls
+squeue -u ble
+ls
+squeue -u ble
+scontrol show JobID=5495824
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1
+ls
+du -sh *
+tar --help
+ls
+squeue -u ble
+ls -ltrh
+tar -tf 1trimNextera.tar.gz
+cd 1trimNextera/
+ls
+cd ..
+ls
+mv --help
+ls
+mv 1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+ls -ltrh
+rm 1trimNextera_INCOMPLETE.tar.gz 
+ls
+pwd
+ls
+ls
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+du -sh
+du -sh *
+rm 1trimNextera.tar.gz 
+pwd
+ls
+pwd
+ls -ltrh
+cd ..
+ls
+ls -ltrh
+ls
+cd ATAC_WntPhase2/
+ls
+pwd
+ljs
+pwd
+squeue -u ble
+ls
+whoami
+cd ..
+ls
+ls -ltrh
+pwd
+cd ATAC_WntPhase2/
+mkdir test
+ls
+ssub --mem=16g -t 2h --wrap=\"\"
+ssub --mem=16g -t 2- --wrap=\"cp -av /pine/scr/b/l/ble/ATACtemp/NYGC_1/1trimNextera.tar.gz .\"
+ls
+scontrol show JobID=5658370
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/20/10_20_2020_13_40_04_034
+echo $PROJ
+echo $HOME
+pwd
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/20/10_20_2020_13_40_04_034
+ls
+pwd
+ls
+squeue -u ble
+scontrol show JobID=5658370
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/20/10_20_2020_13_40_04_034
+cd $HOME
+ls
+cd ms/
+ls
+pwd
+ls -ltrh
+ls -ltrh ../
+pwd
+cd ..
+ls
+pwd
+cd now
+ls
+cat 10_19_2020_11_13_16_381
+cd ..
+ls
+cd now/
+ls
+cat 10_19_2020_10_34_52_574
+ls
+cd ..
+ls
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh *
+du *
+ls
+cd ms
+ls
+du -sh *
+ls
+cd .
+ls
+pwd
+cd /ms/home/b/l/ble/ATAC_WntPhase2
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+pwd
+ls -ltrh
+cd ble
+ls
+cd ..
+ls
+cd ..
+ls
+cd $HOME
+ls
+cd ms
+pwd
+ls -ltrh
+ls -altrh
+pwd
+ls
+pwd
+cd /nas
+ls
+cd longleaf/
+ls
+cd home/
+ls
+cd ble
+ls
+cd ms
+pwd
+ls
+cd ~/ms
+ls
+cd ~
+pwd
+cd ms
+sdu -h
+du -sh *
+sdu --help
+pwd
+ls
+cd ATAC_WntPhase2/
+ls
+pwd
+rm -r test/
+ls
+pwd
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+du -sh *
+ssub -p general --mem=16G -t 2- --wrap=\"cp 1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2 \"
+sjobs
+squeue -u ble
+ls
+scontrol show JobID=5495824
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/19/10_19_2020_11_13_16_381
+ssub -p general --mem=16G -t 2- --wrap=\"cp 1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2/1trimNextera.tar.gz\"
+scontrol show JobID=5650533
+squeue -u ble
+ls
+ls -ltrh
+cp --help
+ls
+ls /nas/longleaf/home/ble/ms/
+pwd
+cp --help
+ssub -p general --mem=16G -t 2- --wrap=\"cp -av 1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2\"
+ssub -p general --mem=16G -t 2- --wrap=\"cp -av 1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2/\"
+whoami
+ls
+pwd
+ls -ltrh
+chmod chmod 754 1trimNextera.tar.gz 
+chmod 754 1trimNextera.tar.gz 
+ls -ltrh
+squeue -u ble
+pwd
+ls
+du -sh *
+squeue -u ble
+ls
+ls -ltrh
+squeue -u ble
+ls
+squeue -u ble
+du -sh *
+sdu -h
+ssub --wrap\"cp -av 1trimNextera.tar.gz ../ \"
+ssub -mem=16g --wrap=\"cp -av 1trimNextera.tar.gz ../ \"
+ls
+ssub --mem=16g --wrap=\"cp -av 1trimNextera.tar.gz ../ \"
+squeue -u ble
+ls
+cd ..
+ls
+man cp
+squeue -u ble
+scontrol show JobID=5495824
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/19/10_19_2020_11_13_16_381
+squeue -u ble
+ls
+squeueu -u ble
+squeue -u ble
+ls
+squeue -u ble
+ls
+cd ms
+ls
+cd ATAC_
+cd ATAC_WntPhase2/
+ls
+squeue -u ble
+ls
+pwd
+ls ..
+ls
+pwd
+cd /ms
+ls
+cd home
+ls
+cd b
+ls
+cd l
+ls
+cd ble
+ls
+pwd
+cd ATAC_WntPhase2/
+ls
+pwd
+ssub --mem=16g -t 4- --notify=ON --wrap=\"mv /pine/scr/b/l/ble/ATACtemp/1trimNextera.tar.gz /ms/home/b/l/ble/ATAC_WntPhase2"
+sjobs
+ssub --mem=16g -t 4- --notify=ON --wrap=\"mv /pine/scr/b/l/ble/ATACtemp/1trimNextera.tar.gz /ms/home/b/l/ble/ATAC_WntPhase2\"
+sjobs
+pwd
+ssub --mem=16g -t 4- --notify=ON --wrap=\"mv /pine/scr/b/l/ble/ATACtemp/1trimNextera.tar.gz /ms/home/b/l/ble/ATAC_WntPhase2/\"
+sjobs
+ls -l
+cd ..
+ls -l
+pwd
+ls
+cd ATAC_WntPhase2/
+ls
+pwd
+screen --help
+screen -S move_1trimNextera
+screen -ls
+screen --help
+screen -x 28994
+cd $SCR
+ls
+cd ATACtemp/
+ls
+du -sh *
+cd NYGC_1/
+ls
+du -sh *
+cd ..
+ls
+sdu --help
+sdu -sh *
+cd ATACtemp/
+ls
+pwd
+ssub --help
+sbatch --help
+vim ~/.bashrc
+ls
+mv --help
+vim ~/.bashrc
+ls
+du -sh *
+ssub --mem=16g -t 4- --notify=ON --wrap=\"mv /pine/scr/b/l/ble/ATACtemp/1trimNextera.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2\"
+sjobs
+ls
+pwd
+ls
+pwd
+ls -l
+ls
+vim testfile.txt
+ls
+ls -l
+cp testfile.txt /ms/home/b/l/ble/ATAC_WntPhase2
+cp testfile.txt ./testfile_copy.txt
+ls
+mv testfile_copy.txt /ms/home/b/l/ble/ATAC_WntPhase2
+ssub --mem=16g -t 4- --notify=ON --wrap=\"mv 1trimNextera.tar.gz /ms/home/b/l/ble/ATAC_WntPhase2\"
+pwd
+cd pine
+cd /pine
+ls
+cd scr
+ls
+cd b
+cd l
+ls
+cd ble
+ls
+pwd
+cd ATACtemp/
+ls
+cat  /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_13_57_14_079
+ls
+sjobs
+screen --help
+screen -ls
+ls
+cd NYGC_1/
+ls
+sdu -sh *
+cd 2mapBWAmem/
+ls
+sdu -sh *
+ls
+cd lane01/
+ls
+cd ..
+ls
+sdu -sh *
+tar --help
+ls
+sdu -sh *
+`ssub --mem=32g -t 4- --wrap=\"tar -cvzf 2mapBWAmem.lane01.tar.gz lane01\"`
+ssub --mem=32g -t 4- --wrap=\"tar -cvzf 2mapBWAmem.lane01.tar.gz lane01\"
+ssub --mem=32g -t 4- --wrap=\"tar -cvzf 2mapBWAmem.lane02.tar.gz lane02\"
+ssub --mem=32g -t 4- --wrap=\"tar -cvzf 2mapBWAmem.lane03.tar.gz lane03\"
+ssub --mem=32g -t 4- --wrap=\"tar -cvzf 2mapBWAmem.lane04.tar.gz lane04\"
+sjobs
+ls
+sjobs
+ls
+sjobs
+ls
+sjobs
+find --help
+ls
+cd ..
+ls
+cd ..
+ls
+ls -l
+find -f
+find -type f
+ls
+find . -type f
+ls
+find -name "*test*"
+ls -ltrh
+find -name "*test*" -exec touch {} +
+ls -ltrh
+ls
+pwd
+find -type f -exec touch {} +
+ls -ltrh
+cd genotypes_HG38_fromDL201012/
+ls
+ls -ltrh
+cd ..
+ls
+sjobs
+screen -ls
+screen --help
+screen -r 28994
+screen -r 28994.move_1trimNextera
+sjobs
+ls
+sjobs
+scontrol show JobID=5703673
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_15_28_58_748
+scontrol show JobID=5703675
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_15_29_14_031
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_15_28_58_748
+sjobs
+scancel --help
+scancel 5703675
+sjobs
+ls
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+du -sh *
+sdu -sh *
+du -sh *
+screen -ls
+cd $PROJ
+ls
+cd WntATAC/
+ls
+cd NYGC1/
+ls
+cd trimNextera/
+ls
+cd ..
+ls
+rm -r trimNextera/
+ls
+cd fastqc/
+ls
+cd fastqc_trim/
+ls
+cd flowcell1_NYGC/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+ls
+sjobs
+scontrol show JobID=5703673
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_15_28_58_748
+screen -ls
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+ls -ltrh
+cd /pine/scr/b/l/ble/ATACtemp/NYGC_1/2mapBWAmem/
+ls
+cd logs_mapBWAmem_200921/
+ls
+ls -ltrh
+cd ..
+ls
+cd ../1trimNextera/
+ls
+cd Sample_6-53-6-B12
+ls
+ls -l
+cd ..
+ls
+cd ..
+ls
+sjobs
+cd 2mapBWAmem/
+ls
+du -sh *
+ls
+cat mergebams.sh
+ls
+ssub --mem=16g --time=4- --wrap=\"tar -czvf mergedBAMs_rawTrimSortIndex.tar.gz merged*\"
+sjobs
+scontrol show JobID=5726012
+squeue -u ble
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/22/10_22_2020_10_57_38_630
+cd ..
+ls
+ls -ltrh
+touch --help
+ls
+touch -c 1trimNextera
+ls
+ls -ltrh
+cd 2mapBWAmem/
+ls
+cat mergebams.sh 
+ls
+cd ms
+ls
+squeue -u ble
+cd $LOGS
+ls
+cd 2020
+ls
+cd 10
+ls
+grep "5182531"
+grep -r "5182531" ./*
+grep -r "5182531" ./12
+ls
+cd 12
+ls
+cat 10_12_2020_18_17_48_058
+cd ..
+ls
+cd 12
+ls
+cat 10_12_2020_18_24_04_810
+ls
+cd ..
+ls
+cd 19
+ls
+cat 10_19_2020_11_13_05_289
+head 10_19_2020_11_13_05_289
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+cd ..
+ls
+rm testfile.txt 
+ls
+cd NYGC_1/
+ls
+ls -ltrh
+sdu -sh *
+rm 2mapBWAmem.tar.gz
+ls
+cd WASP/
+ls
+cd 2findIntersectingSNPs/
+ls
+mkdir OUTPUT_findIntersectingSNPs
+ls
+mv --help
+ls
+mv *.out ./OUTPUT_findIntersectingSNPs/
+ls
+mkdir lane01 lane02 lane03 lane04
+ls
+mv *L001* ./lane01/
+mv *L002* ./lane02/
+mv *L003* ./lane03/
+mv *L004* ./lane04/
+ls
+cd OUTPUT_findIntersectingSNPs/
+grep "CANC" *.out
+grep "CANC" *.out | wc -l
+grep "CANC" *.out > TIMEOUTS_2findIntersectingSNPs.txt
+ls
+cat TIMEOUTS_2findIntersectingSNPs.txt 
+find *.out | wc -l
+ls
+find *.out
+ls
+cat TIMEOUTS_2findIntersectingSNPs.txt 
+head findIntersectingSNPs.103.out
+cat findIntersectingSNPs.103.out
+screen ls
+screen -ls
+screen --help
+ls
+head TIMEOUTS_2findIntersectingSNPs.txt 
+cd ..
+ls
+cat findIntersectingSNPs.sh
+cat findIntersectingSNPs.R
+ls
+cp findIntersectingSNPs.R decodeoutput_findIntersectingSNPs.R
+ls
+vim decodeoutput_findIntersectingSNPs.R 
+cat decodeoutput_findIntersectingSNPs.R 
+ls
+Rscript --help
+Rscript --verbose --no-save decodeoutput_findIntersectingSNPs.R
+ls
+vim decodeoutput_findIntersectingSNPs.R 
+Rscript --verbose --no-save decodeoutput_findIntersectingSNPs.R
+ls
+vim decodeoutput_findIntersectingSNPs.R 
+Rscript --verbose --no-save decodeoutput_findIntersectingSNPs.R
+ls
+cat bamfilelist.txt 
+ls
+cd OUTPUT_findIntersectingSNPs/
+ls
+mv TIMEOUTS_2findIntersectingSNPs.txt ../
+ls
+cd ..
+ls
+head TIMEOUTS_2findIntersectingSNPs.txt 
+ls
+cat findIntersectingSNPs.R
+ls
+cat findIntersectingSNPs.sh
+vim findIntersectingSNPs.sh
+ls
+head samples_NYGC1.txt 
+cp findIntersectingSNPs.sh resub_findIntersectingSNPs.sh
+ls
+vim resub_findIntersectingSNPs.sh
+ls
+cat findIntersectingSNPs.R
+ls
+pwd
+ls
+vim findIntersectingSNPs.sh
+ls
+rm resub_findIntersectingSNPs.sh
+ls
+vim resub_findIntersectingSNPs.R
+ls
+Rscript --verbose --no-save resub_findIntersectingSNPs.R
+squeue -u ble
+ls
+squeue -u ble
+scontrol show JobID=5734295
+cat /pine/scr/b/l/ble/ATACtemp/NYGC_1/WASP/2findIntersectingSNPs/findIntersectingSNPs.5-62-6-B06_CGGTTGTT-CATACCAC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+ls
+squeue -u ble
+scontrol show JobID=5726012
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/22/10_22_2020_10_57_38_630
+ls
+cd ..
+ls
+squeue -u ble
+ls
+cd 2
+cd 2findIntersectingSNPs/
+ls
+squeue -u ble
+ls
+squeue -u ble
+squeue -p steinlab
+ls
+pwd
+ls
+vim decodeoutput_findIntersectingSNPs.R 
+vim resub_findIntersectingSNPs.R 
+rm decodeoutput_findIntersectingSNPs.R 
+ls
+pwd
+cat resubs_2findIntersectingSNPs.txt
+ls
+sjobs
+squeue -u ble
+screen --help
+ls
+screen -ls
+screen --help
+cp -a mergedBAMs_rawTrimSortIndex.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2
+ls
+du -sh *
+screen -ls
+screen --help
+man screen
+C-a ?
+screen C-a ?
+screen --help
+screen -ls
+echo $SHELL
+cd ms
+ls
+cd ATAC_WntPhase2/
+ls
+rm test*
+ls
+sdu -sh *
+ls
+pwd
+ls
+cp --help
+screen -ls
+pwd
+ls
+du -sh *
+sdu -sh *
+ls
+cd $SCR
+ls
+cd A
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd 2mapBWAmem/
+ls
+du -sh *
+squeue -u ble
+scontrol show JobID=5703693
+cat /nas/longleaf/home/ble/logs/SLURM_logs/2020/10/21/10_21_2020_15_29_37_724
+squeue -u ble
+screen -ls
+ls
+squeue -u ble
+ls
+squeue -u ble
+ls
+du -sh *
+ls
+squeue -u ble
+squeue -u ble | grep "find" | wc -l
+ls
+cd ..
+cd WASP/
+cd 2findIntersectingSNPs/
+ls
+grep "COMP" *.out
+ls -ltrh
+ls -ltrh *.out
+cat findIntersectingSNPs.4-94-5-F11_CTTCGACT-GCAAGATC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+cat findIntersectingSNPs.4-38-5-B11_TACGCCTT-AGAGTAGC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+grep "REMAP" *.out
+head findIntersectingSNPs.4-38-5-B11_TACGCCTT-AGAGTAGC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+cat findIntersectingSNPs.4-38-5-B11_TACGCCTT-AGAGTAGC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+squeue -u ble
+ls
+grep "remap" *.out
+cat findIntersectingSNPs.4-38-5-B11_TACGCCTT-AGAGTAGC_H2NTWDSXY_L002_001_adapTrimmed_sort.bam.out
+grep "KEEP" *.out
+ls
+screen -ls
+ls
+ls
+squeue -u ble
+cd $SCR
+ls
+cd ATACtemp/
+cd NYGC_1/WASP/
+ls
+cd 2findIntersectingSNPs/
+ls
+find "*.out"
+find *.out
+find *.out | wc -l
+squeue -u ble
+ls
+screen --help
+screen -ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd 2mapBWAmem/
+ls
+ssub -t 4- --mem=8g --wrap=\"cp -a /pine/scr/b/l/ble/ATACtemp/NYGC_1/2mapBWAmem/mergedBAMs_rawTrimSortIndex.tar.gz /nas/longleaf/home/ble/ms/ATAC_WntPhase2\"
+squeue -u ble
+ls
+screen -S moveMergedBams
+ls
+cd ..
+ls
+cd ..
+ls
+du -sh *
+cd NYGC_1/
+du -sh *
+cd ..
+ls
+rm 1trimNextera.tar.gz 
+ls
+cd NYGC_1/
+ls
+squeue -u ble
+ls
+squeue -u ble
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/WASP/
+ls
+cd 2findIntersectingSNPs/
+ls
+grep "remap" *.out
+ls
+grep "CANC" *.out
+cat findIntersectingSNPs.1-147-1-D01_GAGACGAT-TAACCGGT_H2NTWDSXY_L001_001_adapTrimmed_sort.bam.out
+grep "KEEP" *.out
+grep "KEEP" *.out | wc -l
+ls
+cd $SCR
+cd ATACtemp/NYGC_1/WASP/2findIntersectingSNPs/
+ls
+ls *.out
+ls *.out | wc -l
+grep "REMAP" *.out
+grep "REMAP" *.out | wc -l
+grep "CANC" *.out | wc -l
+grep "TIME" *.out | wc -l
+grep "time" *.out | wc -l
+ls
+mv *.out ./OUTPUT_findIntersectingSNPs/
+ls
+mv *LOO4* ./lane04
+ls
+mv *L004* ./lane04
+ls
+mv *L003* ./lane03
+mv *L002* ./lane02
+mv *L001* ./lane01
+ls
+du -sh *
+cd ..
+ls
+cd $PROJ
+ls
+cd ..
+ls
+cd raw/
+ls
+cd ..
+ls
+cd projects/
+ls
+mkdir ConLiGen
+ls
+cd ConLiGen/
+ls
+pwd
+wget --help
+ls
+pwd
+ls
+wget https://kumbox.med.uni-muenchen.de/public/?file=186b0a66
+ls
+rm index.html\?file\=186b0a66 
+ls
+vim README
+ls
+cd $SCR
+ls
+cd ATACtemp/
+ls
+cd NYGC_1/
+ls
+cd WASP/
+ls
+cd 2findIntersectingSNPs/
+ls
+cd lane01/
+ls
+cd ..
+ls
+ls ./lane01 | wc -l
+du -sh *
+cd $SCR
+ls
+cd ATACtemp/
+cd ..
+ls
+cat listfiles_NYGC_1.txt 
+ls
+cd ..
+ls
+cd ble
+ls
+cd ATACtemp/
+ls
